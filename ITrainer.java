@@ -10,7 +10,7 @@ public interface ITrainer {
 
     void battle(Trainer enemyTrainer);
 
-    void battle(Pokemon wildPokemon);
+    boolean battle(Pokemon wildPokemon);
 
 //    Map<String, Pokemon> searchDex(); //검색하면 다 리턴하기
 

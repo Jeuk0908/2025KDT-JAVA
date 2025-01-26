@@ -87,8 +87,6 @@ public class Pokemon implements IPokemon {
                 newDefence,
                 newPokemonName
         );
-
-
     }
 
 }

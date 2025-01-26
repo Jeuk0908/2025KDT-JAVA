@@ -5,6 +5,10 @@ import java.util.Map;
 
 public class PokeDex {
 
+    //퐄켓몬별 진화Tree 필요
+        // 1) 다음 진화단계를 중첩자료형으로 저장.
+//    public static Map<String, Map<>> PokemonDex = new HashMap<>();
+        // 2) 진화단계를 번호로 포켓몬이 소유, 진화시 Map에서 번호 교체.
     public static Map<String, Pokemon> PokemonByName = new HashMap<>();
     public static Map<PokeCategory, Map<String, Pokemon>> PokemonByCategory = new HashMap<>();
     //도감
