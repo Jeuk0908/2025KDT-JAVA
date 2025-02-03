@@ -87,6 +87,8 @@ public class Pokemon implements IPokemon {
                 newDefence,
                 newPokemonName
         );
+        //TODO : 리턴값 이거 맞나?
+        return p1;
     }
 
 }
